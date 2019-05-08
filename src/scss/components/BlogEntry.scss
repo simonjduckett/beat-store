@@ -1,0 +1,9 @@
+.blogEntry {
+    width: 33.33%;
+    @include breakpoint('mobile'){
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+}

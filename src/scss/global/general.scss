@@ -1,0 +1,17 @@
+.flex {
+    display: flex;
+    @include breakpoint('mobile'){
+        display: block;
+    }
+}
+
+.half {
+    width: 50%;
+    @include breakpoint('mobile'){
+        width: 100%;
+    }
+}
+
+.min-height {
+    min-height: 100vh;
+}

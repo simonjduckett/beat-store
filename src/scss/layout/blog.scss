@@ -1,0 +1,11 @@
+.blog-list {
+    li {
+        display: flex;
+        div:nth-of-type(1) {
+            width: 200px;;
+        }
+        img {
+            width: 100%;
+        }
+    }
+}
