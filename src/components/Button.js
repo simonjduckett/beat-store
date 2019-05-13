@@ -4,7 +4,7 @@ export const Button = (props) => {
 
         return (
             <div id='button'>
-                <a href='/'>{props.text}</a>
+                <a target={props.target} href={props.link}>{props.text}</a>
             </div>
         );
 }

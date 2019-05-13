@@ -1,0 +1,71 @@
+{
+    "licenses": [
+        {
+            "name": "Mp3",
+            "price": "29.95",
+            "included": [
+                "Untagged MP3",
+                "Use in 1 music video",
+                "Limited to 2000 streams",
+                "Not for profit performances",
+                "Unlimited free downloads"
+            ],
+            "excluded": [
+                "Distributions",
+                "Paid performances",
+                "Radio airplay",
+                "Track stems"
+            ]
+        },
+        {
+            "name": "Basic",
+            "price": "49.95",
+            "included": [
+                "Untagged MP3 + Wav",
+                "Use in 1 music video",
+                "Limited to 50000 streams",
+                "Limited to 5000 distributions",
+                "Not for profit performances",
+                "Unlimited free downloads"
+            ],
+            "excluded": [
+                "Paid performances",
+                "Radio airplay",
+                "Track stems"
+            ]
+        },
+        {
+            "name": "Premium",
+            "price": "99.95",
+            "included": [
+                "Untagged MP3 + Wav",
+                "Use in 1 music video",
+                "Limited to 100000 streams",
+                "Limited to 10000 distributions",
+                "Not for profit performances",
+                "Unlimited free downloads",
+                "2 radio stations",
+                "Paid performances",
+                "Track stems"
+            ],
+            "excluded": [
+            ]
+        },
+        {
+            "name": "Unlimited",
+            "price": "199.95",
+            "included": [
+                "Untagged MP3 + Wav",
+                "Use in 1 music video",
+                "Unlimited streams",
+                "Unlimited distributions",
+                "Not for profit performances",
+                "Unlimited free downloads",
+                "Unlimited radio stations",
+                "Paid performances",
+                "Track stems"
+            ],
+            "excluded": []
+        }
+    ]
+}

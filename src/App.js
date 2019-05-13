@@ -5,12 +5,13 @@ import './App.css';
 import { Header } from './components/Header';
 import { Footer } from './Sections/footer';
 import { Home } from './Sections/Home';
-import { About } from './Sections/about';
 import { Blog } from './Sections/blog';
 import { Single } from './Sections/single';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { PageNotFound } from './components/pageNotFound';
+import { Licensing } from './Sections/licensing';
+import { Contact } from './Sections/contact';
 
 class App extends Component {
 
@@ -49,9 +50,10 @@ class App extends Component {
         <BrowserRouter>
           <Switch>
               <Route exact path='/' render={() => { return <Home featured={this.state.featured} />}} />
-              <Route path='/about' component={About} />
+              <Route path='/licensing' component={Licensing} />
               <Route path='/blog' render={() => { return <Blog data={this.state.data} /> }} />
               <Route path='/single/:id' component={Single} />
+              <Route path='/contact' component={Contact} />
               <Route component={PageNotFound} />
           </Switch>
         </BrowserRouter>

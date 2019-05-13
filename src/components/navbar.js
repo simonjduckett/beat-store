@@ -11,11 +11,10 @@ export class Navbarport extends Component {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                            <Nav.Link className='link' href="/">Home</Nav.Link>
+                            <Nav.Link className='link' href="/licensing">Licensing</Nav.Link>
                             <Nav.Link className='link' href="/blog">
-                            blog
+                            Blog
                             </Nav.Link>
-                            <Nav.Link className='link' href="/about">About</Nav.Link>
                             <Nav.Link className='link' href="/contact">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
