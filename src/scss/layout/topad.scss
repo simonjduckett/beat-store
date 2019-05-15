@@ -1,6 +1,19 @@
 #top-ad {
     text-align: left;
-    padding: 100px 0 100px 0;
+    padding: 50px 0 50px 0;
     background-color: #333333;
     color: white;
+}
+
+.topad-img {
+    text-align: right;
+    img {
+        width: 75%;
+        @include breakpoint('mobile') {
+            width: 100%;
+        }
+    }
+    @include breakpoint('mobile') {
+        text-align: center;
+    }
 }

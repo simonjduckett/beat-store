@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import FontAwesome from 'react-fontawesome';
-import { Button } from './Button';
 
 export const License = (props) => {
 
@@ -26,8 +25,6 @@ export const License = (props) => {
                         )
                     })}
                 </table>
-                <Button text='View full license' />
-                
             </div>
         );
 }

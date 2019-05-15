@@ -1,5 +1,8 @@
 #promo-ad {
     padding: 50px;
+    @include breakpoint('mobile') {
+        padding: 10px 0 0 0;
+    }
 }
 
 .promo-ad-box {

@@ -1,9 +1,14 @@
 import React from 'react';
 import { Hero } from '../components/Hero';
+import { Helmet } from 'react-helmet';
 
 export const Contact = () => {
     return (
         <section className='contact min-height'>
+            <Helmet>
+                <title>Ai drone Instrumental beat store | Contact</title>
+                <meta name="description" content="Contact the Ai drone beat/music store." />
+            </Helmet>
             <Hero title='Contact' />
             <div className='container'>
                 <div>

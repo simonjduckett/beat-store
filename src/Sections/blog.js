@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Hero } from '../components/Hero';
+import { Helmet } from 'react-helmet';
 
 export class Blog extends Component {
 
     render() {
         return (
             <section id='blog' className='min-height'>
+                <Helmet>
+                    <title>Ai drone Instrumental beat store | Blog</title>
+                    <meta name="description" content="Blog from the Ai drone beat/music store." />
+                </Helmet>
                 <Hero title='Blog' />
                 <div align='left' className='container'>
                     <ul className='blog-list'>
@@ -25,7 +30,7 @@ export class Blog extends Component {
                                 }}>
                                     <li key={i}>
                                         <div>
-                                            <img src={src} />
+                                            <img src={src} alt='aidrone blog' />
                                         </div>
                                         <div>
                                             {blog.title}

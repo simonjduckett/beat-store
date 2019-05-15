@@ -10,7 +10,6 @@ export class Promo extends Component {
                         <b>🍦 Store Launch Offer: Buy one get one free! 🍦</b>
                         <p>Add 2 basic licenses to your cart, discount will be applied automatically.</p>
                     </div>
-                    
                 </div>
             </section>
         );
