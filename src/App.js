@@ -46,8 +46,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        
         <BrowserRouter>
+          <Header />
           <Switch>
               <Route exact path='/' render={() => { return <Home featured={this.state.featured} />}} />
               <Route path='/licensing' component={Licensing} />

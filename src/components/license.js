@@ -8,6 +8,7 @@ export const License = (props) => {
                 <h1>{props.data.name}</h1>
                 <h2><sup>$</sup>{props.data.price}</h2>
                 <table className='licenses-table'>
+                <tbody>
                     {props.data.included.map((point, i) => {
                         return (
                             <tr key={i}>
@@ -24,6 +25,7 @@ export const License = (props) => {
                             </tr>
                         )
                     })}
+                    </tbody>
                 </table>
             </div>
         );

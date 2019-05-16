@@ -25,7 +25,7 @@ export class Blog extends Component {
                             }
                             
                             return (
-                                <Link to={{
+                                <Link key={i} to={{
                                     pathname: 'single/' + blog.id,
                                 }}>
                                     <li key={i}>

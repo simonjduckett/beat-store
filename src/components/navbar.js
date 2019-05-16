@@ -1,21 +1,31 @@
 import React, { Component } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-
+import { Link } from 'react-router-dom';
 
 export class Navbarport extends Component {
     render() {
         return (
             <div>
                 <Navbar expand="md" variant='dark' sticky='top'>
-                    <Navbar.Brand href="/">Ai drone</Navbar.Brand>
+                    <Link className='navbar-brand' to={{
+                        pathname: '/'
+                    }}>Ai drone
+                            </Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                            <Nav.Link className='link' href="/licensing">Licensing</Nav.Link>
-                            <Nav.Link className='link' href="/blog">
-                            Blog
-                            </Nav.Link>
-                            <Nav.Link className='link' href="/contact">Contact</Nav.Link>
+                            <Link className='nav-link' to={{
+                                pathname: '/licensing'
+                            }}>Licensing
+                            </Link>
+                            <Link className='nav-link' to={{
+                                    pathname: '/blog'
+                                }}>blog
+                            </Link>
+                            <Link className='nav-link' to={{
+                                    pathname: '/contact'
+                                }}>contact
+                            </Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
