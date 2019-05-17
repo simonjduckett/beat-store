@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, HashRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import { Header } from './components/Header';
@@ -47,7 +47,7 @@ class App extends Component {
     return (
       <div className="App">
         
-        <BrowserRouter>
+        <HashRouter>
           <Header />
           <Switch>
               <Route exact path='/' render={() => { return <Home featured={this.state.featured} />}} />
@@ -57,7 +57,7 @@ class App extends Component {
               <Route path='/contact' component={Contact} />
               <Route component={PageNotFound} />
           </Switch>
-        </BrowserRouter>
+        </HashRouter>
         <Footer />
       </div>
     );
