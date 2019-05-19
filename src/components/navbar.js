@@ -20,11 +20,11 @@ export class Navbarport extends Component {
                             </Link>
                             <Link className='nav-link' to={{
                                     pathname: '/blog'
-                                }}>blog
+                                }}>Blog
                             </Link>
                             <Link className='nav-link' to={{
                                     pathname: '/contact'
-                                }}>contact
+                                }}>Contact
                             </Link>
                         </Nav>
                     </Navbar.Collapse>
