@@ -47,7 +47,7 @@ class App extends Component {
     return (
       <div className="App">
         
-        <HashRouter>
+        <BrowserRouter>
           <Header />
           <Switch>
               <Route exact path='/' render={() => { return <Home featured={this.state.featured} />}} />
@@ -57,7 +57,7 @@ class App extends Component {
               <Route path='/contact' component={Contact} />
               <Route component={PageNotFound} />
           </Switch>
-        </HashRouter>
+        </BrowserRouter>
         <Footer />
       </div>
     );

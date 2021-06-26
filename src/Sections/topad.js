@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Button } from '../components/Button';
-import logo from '../images/logo.jpg';
+//import logo from '../images/logo.jpg';
 
 export class Topad extends Component {
     render() {
@@ -14,7 +14,7 @@ export class Topad extends Component {
                         <Button link='https://mailchi.mp/1678769da354/aidronesignup' text='Get your tracks' target='_blank' />
                     </div>
                     <div className='half topad-img'>
-                    <img src={logo} alt='aidrone logo' />
+                    {/* <img src={logo} alt='aidrone logo' /> */}
                     </div>
                 </div>
             </section>

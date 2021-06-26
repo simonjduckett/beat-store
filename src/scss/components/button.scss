@@ -12,3 +12,9 @@
         }
     }
 }
+
+.btn, .btn-primary {
+    background-color: $pastalRed !important;
+    outline-color: $pastalRed !important;
+    border-color: $pastalRed !important;
+}

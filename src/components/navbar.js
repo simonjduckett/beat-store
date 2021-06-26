@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 export class Navbarport extends Component {
     render() {
@@ -11,23 +12,28 @@ export class Navbarport extends Component {
                         pathname: '/'
                     }}>Ai drone
                             </Link>
+                    <HashLink smooth className='btn btn-primary order-md-2' to="/#player">Shop Beats
+                    </HashLink>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="mr-auto">
-                            <Link className='nav-link' to={{
+                        <Nav className="mx-auto">
+                            {/* <Link className='nav-link' to={{
                                 pathname: '/licensing'
                             }}>Licensing
-                            </Link>
-                            <Link className='nav-link' to={{
+                            </Link> */}
+                            <HashLink smooth className='nav-item' to="/#licensing">Licensing
+                            </HashLink>
+                            {/* <Link className='nav-link' to={{
                                     pathname: '/blog'
                                 }}>Blog
-                            </Link>
+                            </Link> */}
                             <Link className='nav-link' to={{
                                     pathname: '/contact'
-                                }}>Contact
+                                }}>Contact Us
                             </Link>
                         </Nav>
                     </Navbar.Collapse>
+                    
                 </Navbar>
             </div>
         );
