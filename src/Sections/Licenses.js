@@ -204,7 +204,7 @@ const Licenses = () => {
                 </div>
                 <div className="py-5 text-muted w-100">
                     <h4>Upon purchase beats will be available to download instantly.</h4>
-                    <a href="https://aidronebeats.com/buying-music-licenses-explained/"><p>Read licenses guide...</p></a>
+                    <a href="https://aidronebeats.blogspot.com/2019/05/buying-licenses-explained.html"><p>Read licenses guide...</p></a>
                 </div>
             </div>
         </section>

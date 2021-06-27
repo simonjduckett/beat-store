@@ -21,7 +21,7 @@ export class Navbarport extends Component {
                                 pathname: '/licensing'
                             }}>Licensing
                             </Link> */}
-                            <HashLink smooth className='nav-item' to="/#licensing">Licensing
+                            <HashLink smooth className='nav-link' to="/#licensing">Licensing
                             </HashLink>
                             {/* <Link className='nav-link' to={{
                                     pathname: '/blog'

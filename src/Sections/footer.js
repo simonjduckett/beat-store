@@ -1,5 +1,6 @@
 import React from 'react';
 import FontAwesome from 'react-fontawesome';
+import { HashLink } from 'react-router-hash-link';
 
 export const Footer = () => {
         return (
@@ -36,11 +37,12 @@ export const Footer = () => {
                             </div>
                             <div className="col-md-2">
                                 <h4>Get started</h4>
-                                <div className="menu-secondary-container"><ul id="menu-secondary" className="menu"><li id="menu-item-210" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-210"><a href="https://aidronebeats.com/blog/">Blog</a></li>
-                                    <li id="menu-item-211" className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-9 current_page_item menu-item-211"><a href="https://aidronebeats.com/licenses/" aria-current="page">Licenses</a></li>
-                                    <li id="menu-item-212" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-212"><a href="https://aidronebeats.com/">Home</a></li>
+                            <div className="menu-secondary-container"><ul id="menu-secondary" className="menu"><li id="menu-item-210" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-210"><a href="https://aidronebeats.blogspot.com/">Blog</a></li>
+                                <li id="menu-item-211" className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-9 current_page_item menu-item-211"><a href="/#licensing">Licensing
+                                </a></li>
+                                    <li id="menu-item-212" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-212"><a href="/">Home</a></li>
                                 </ul></div>                </div>
-                            <div className="col-md-2">
+                            <div className="col-md-2 d-none">
                                 <h4>Guides</h4>
                                 <div className="menu-guides-container"><ul id="menu-guides" className="menu"><li id="menu-item-213" className="menu-item menu-item-type-post_type menu-item-object-post menu-item-213"><a href="https://aidronebeats.com/buying-music-licenses-explained/">Buying music licenses explained</a></li>
                                     <li id="menu-item-214" className="menu-item menu-item-type-post_type menu-item-object-post menu-item-214"><a href="https://aidronebeats.com/how-to-start-a-beat/">How to start a beat</a></li>

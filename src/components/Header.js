@@ -7,6 +7,7 @@ export class Header extends Component {
         return (
             <div>
                 <header>
+                    <div id='backdrop'></div>
                     <div className='container'>
                         <Navbarport />
                         <Topad />

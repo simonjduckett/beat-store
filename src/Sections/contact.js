@@ -4,12 +4,12 @@ import { Helmet } from 'react-helmet';
 
 export const Contact = () => {
     return (
-        <section className='contact min-height'>
+        <section className='contact py-5'>
             <Helmet>
                 <title>Ai drone Instrumental beat store | Contact</title>
                 <meta name="description" content="Contact the Ai drone beat/music store." />
             </Helmet>
-            <Hero title='Contact' />
+            {/* <Hero title='Contact' /> */}
             <div className='container'>
                 <div>
                     <div>
