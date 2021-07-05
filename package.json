@@ -2,6 +2,7 @@
   "name": "portfolio-2",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://aidronebeats.com",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "moment": "^2.24.0",
@@ -16,7 +17,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -31,6 +34,7 @@
     "@fortawesome/fontawesome-free": "^5.8.1",
     "aos": "^2.3.4",
     "browser-sync": "^2.27.3",
+    "gh-pages": "^3.2.3",
     "gulp": "^4.0.0",
     "gulp-clean-css": "^4.0.0",
     "gulp-imagemin": "^5.0.3",

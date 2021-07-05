@@ -1,6 +1,7 @@
 import React from 'react';
 import FontAwesome from 'react-fontawesome';
 import { HashLink } from 'react-router-hash-link';
+import fav from '../images/favicon.png';
 
 export const Footer = () => {
         return (
@@ -62,7 +63,7 @@ export const Footer = () => {
                         <div className="container">
                             <div className="row">
                                 <div className="col-md-8">
-                                    <img width="50" src="https://aidronebeats.com/wp-content/uploads/2019/10/favicon.png" alt="ai drone instrumental beat store logo" />
+                                    <img width="50" src={fav} alt="ai drone instrumental beat store logo" />
                     
                                     </div>
                                     <div align="right" className="col-md-4">
